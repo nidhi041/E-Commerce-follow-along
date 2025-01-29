@@ -1,5 +1,4 @@
 # -E-Commerce-follow-along
-# -E-Commerce-follow-along
 It contains 4 parts.
 User Authentication: Register and log in users.
 Product Management: Add, update, and retrieve product data.
@@ -93,3 +92,67 @@ During this milestone, your mentor will guide you through:
 - Setting up the backend folder structure and files.
 - Configuring the server and connecting to MongoDB.
 - Writing and testing error-handling code.
+
+# Milestone 4: User Management with File Uploads
+
+This Node.js application demonstrates user creation, file uploads using Multer, and secure password management using bcrypt and JWT.
+
+## Features
+
+- User Registration: Securely create users with hashed passwords.
+- File Upload: Upload user avatars with unique filenames.
+- JWT Authentication: Generate and validate JSON Web Tokens.
+- Error Handling: Robust error management using a custom ErrorHandler utility.
+
+## Technologies Used
+
+- Node.js with Express.js
+- Mongoose for MongoDB
+- Multer for file uploads
+- bcrypt.js for password hashing
+- jsonwebtoken for authentication
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed
+- MongoDB instance running
+- .env file with the following variables
+
+# Milestone 5 -Adding SignUp Page
+
+1. Created a Sign-Up Page in React.
+2. Implemented form validation for:
+      Name (required)
+      Email (valid format required)
+      Password (minimum 2 characters)
+      Password Confirmation (must match password)
+
+4. Used React Router for navigation.
+
+# Milestone 6: User Authentication with Password Encryption
+
+## Overview
+
+In this project, we focus on two key aspects of user authentication:
+
+1. *Encrypting the Password*: Hash the user's password during the signup process using bcrypt to ensure it's stored securely.
+2. *Saving User Data*: Store the user's data (e.g., name, email, etc.) in the database, ensuring the password remains encrypted.
+
+## Features
+
+- *Password Encryption*: Uses bcrypt to securely hash and store passwords.
+- *Secure User Storage*: Stores user information (name, email, etc.) in the database with encrypted passwords.
+- *Database Integration*: Ensures all user data is stored following security best practices.
+
+# Milestone 7:The Login Endpoint
+
+## Overview
+
+This guide covers how to implement a user login endpoint that accepts user credentials (email/username and password), validates the credentials against a database, and uses bcrypt to hash the entered password for secure authentication.
+
+## Features
+Accepts login credentials (email/username and password) from the user.
+Retrieves user information from the database using the provided credentials.
+Uses bcrypt for hashing and comparing passwords securely
