@@ -318,3 +318,31 @@ Dynamically map the fetched data to product card components.
 **Display:**
 
 Render the product cards in a grid or list format for a user-friendly interface.
+
+
+## Milestone 12 - My Products Page
+# Overview
+In this milestone, we will create a "My Products" page that displays all the products added by the currently logged-in user. The data will be filtered based on the user's email and retrieved from MongoDB.
+
+# Learning Goals
+Writing an API endpoint to fetch user-specific products from the database.
+Filtering data based on user email.
+Fetching and displaying the data dynamically on the frontend using the previously created product card component.
+
+# Steps for Milestone 12
+**Backend:**
+
+Create an API endpoint that fetches products associated with the logged-in user's email.
+Retrieve data from MongoDB and return a JSON response.
+
+**Frontend:**
+
+Write a function to fetch user-specific products from the backend.
+Dynamically render the product data using the product card component.
+
+# Expected Outcome
+By completing this milestone, users will be able to:
+
+View products that they added, filtered by their email.
+Dynamically display the retrieved data using the product card component.
+Understand how to filter data in a backend API and send it to the client.
