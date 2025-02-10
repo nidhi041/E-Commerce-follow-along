@@ -355,3 +355,11 @@ This feature enables users to edit product details in a MongoDB database via an 
 1. Backend: Express.js with MongoDB (Mongoose)
 2. Frontend: React.js with Axios for API requests
 3. Operation: PUT request to update the product details in the database
+
+### milestone 14: Product Delete Feature (MERN Stack)
+This feature allows users to delete a product from a MongoDB database by clicking a delete button on the frontend. When the button is clicked, the product's ID is sent to the backend, which removes it from the database.
+
+# Overview:
+1. Backend: Express.js with MongoDB (Mongoose)
+2. Frontend: React.js with Axios for API requests
+3. Operation: DELETE request to remove a product from the database
