@@ -346,3 +346,12 @@ By completing this milestone, users will be able to:
 View products that they added, filtered by their email.
 Dynamically display the retrieved data using the product card component.
 Understand how to filter data in a backend API and send it to the client.
+
+
+### milestone 13: Product Update Feature (MERN Stack)
+This feature enables users to edit product details in a MongoDB database via an edit button on the frontend. When the button is clicked, the existing product details are autofilled in a form, where users can make changes and save them. The backend handles updating the data in MongoDB.
+
+# Overview:
+1. Backend: Express.js with MongoDB (Mongoose)
+2. Frontend: React.js with Axios for API requests
+3. Operation: PUT request to update the product details in the database
