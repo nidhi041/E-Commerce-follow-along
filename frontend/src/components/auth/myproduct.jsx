@@ -48,9 +48,14 @@ function Myproduct({ _id, name, images, description, price }) {
                     <p className="text-lg font-bold my-2">${price.toFixed(2)}</p>
                     <button
                         className="w-full text-white px-4 py-2 rounded-md bg-neutral-900 hover:bg-neutral-700 transition duration-300"
-                        onClick={handleEdit}
-                    >
-                        Edit
+                        onClick={() => navigate(`/product/${_id}`)}
+                        >
+                          More Info
+                        
+                    
+                   
+        
+                       
                     </button>
                     <button
                         onClick={handleDelete}
