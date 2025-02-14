@@ -413,7 +413,7 @@ This is a React-based e-commerce project built using Vite. The project includes 
 
 
 
-### milestone 17
+### Milestone 17:
 1: Update User Schema to Store Cart Products
 We'll modify the user schema to include a cart field that stores product details.
 
@@ -422,3 +422,17 @@ This schema will store cart items with fields like userId, productId, quantity, 
 
 3: Write an API Endpoint to Add Products to the Cart
 We'll create an API route that accepts product details and stores them in the database.
+
+
+## Milestone 18:
+
+### **Overview**  
+Milestone 18 focuses on implementing a backend API to manage the cart system in an e-commerce application. This includes retrieving products inside a user's cart, ensuring efficient cart management and a seamless shopping experience.  
+
+### **Features**  
+- **Fetch Cart Items:** Retrieve all products added to a user's cart.  
+- **MongoDB Integration:** Store and manage cart data efficiently.  
+- **REST API Support:** Simple and structured API endpoints.  
+- **Scalability:** Designed for easy expansion with additional features like cart updates and deletion.  
+- **Secure & Optimized:** Ensures reliable data fetching with proper error handling.  
+
