@@ -448,3 +448,20 @@ The ability to increase or decrease the quantity of each product using + and - b
 **Backend API Endpoints:**
 **Increase Quantity:** Endpoint to handle the increase in the product quantity.
 **Decrease Quantity:** Endpoint to handle the decrease in the product quantity.
+
+
+
+### Milestone 20: User Profile and Email Endpoint Implementation
+# Overview
+In this milestone, we are focusing on two main tasks:
+
+# Backend Endpoint: Create an API that will send the user’s profile data (including their personal details and address) via email.
+**Frontend Profile Page:** Create a profile page that displays the user's data, including profile photo, name, email, and addresses. The page will have sections for user details and addresses, with the ability to add a new address.
+# Key Features:
+# Backend Email Endpoint:
+Endpoint: /api/user/sendData
+Sends user data (name, email, profile photo, and address) via email to a specified email address.
+**Frontend Profile Page:**
+Displays user data: profile photo, name, email, and address.
+Includes a button to add an address.
+If no address is found, it displays a message: "No address found".
