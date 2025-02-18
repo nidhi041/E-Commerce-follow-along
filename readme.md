@@ -436,3 +436,15 @@ Milestone 18 focuses on implementing a backend API to manage the cart system in 
 - **Scalability:** Designed for easy expansion with additional features like cart updates and deletion.  
 - **Secure & Optimized:** Ensures reliable data fetching with proper error handling.  
 
+
+## Milestone 19:
+# Overview
+In this milestone, we are focusing on creating a Cart Page for our e-commerce application. The page will display products added to the cart, with options for increasing and decreasing the quantity of each product using + and - buttons. Additionally, we will implement backend endpoints to handle updating the quantity of the products in the cart.
+
+### Key Features:
+**Frontend Cart Page:** Displays products in the cart.
+Each product shows its name, price, and current quantity.
+The ability to increase or decrease the quantity of each product using + and - buttons.
+**Backend API Endpoints:**
+**Increase Quantity:** Endpoint to handle the increase in the product quantity.
+**Decrease Quantity:** Endpoint to handle the decrease in the product quantity.
