@@ -465,3 +465,12 @@ Sends user data (name, email, profile photo, and address) via email to a specifi
 Displays user data: profile photo, name, email, and address.
 Includes a button to add an address.
 If no address is found, it displays a message: "No address found".
+
+
+### Milestone 21: Address Form Frontend Page 
+# Overview
+Create a frontend form to collect and store address details, including country, city, address1, address2, zip code, and address type.
+# Steps 📝
+Build the address form page.
+Store input values in state.
+Navigate to this form when clicking "Add Address" in the profile.
