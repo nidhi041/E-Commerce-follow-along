@@ -470,7 +470,22 @@ If no address is found, it displays a message: "No address found".
 ### Milestone 21: Address Form Frontend Page 
 # Overview
 Create a frontend form to collect and store address details, including country, city, address1, address2, zip code, and address type.
-# Steps 📝
+# Steps 
 Build the address form page.
 Store input values in state.
 Navigate to this form when clicking "Add Address" in the profile.
+
+
+### Milestone 22 - Save Address in User Profile
+# Overview
+In this milestone, we created a backend endpoint to store user addresses in the database. The endpoint receives address details from the frontend form and appends them to the address array in the user collection.
+
+# Learning Outcomes
+1. Implemented an API endpoint to handle address storage.
+2. Updated the user collection to include multiple addresses.
+3. Strengthened backend skills for handling user profiles.
+# Submission Details
+1. Code pushed to GitHub repository.
+2. Repository is publicly accessible.
+3. This README summarizes the progress.
+4. This milestone enhances the user experience by providing a profile page to view and manage their information.

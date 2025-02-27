@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -9,7 +8,7 @@ const CreateAddress = () => {
     const [city, setCity] = useState("");
     const [address1, setAddress1] = useState("");
     const [address2, setAddress2] = useState("");
-    const [zipCode, setZipCode] = useState("");
+    const [zipCode, setZipCode] = useState(""); 
     const [addressType, setAddressType] = useState("");
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -20,7 +19,7 @@ const CreateAddress = () => {
             address2,
             zipCode,
             addressType,
-            email: "nidhi@gmail.com"
+            email: "nidhi20@gmail.com"
         };
         try {
             const response = await axios.post(
