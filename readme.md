@@ -489,3 +489,16 @@ In this milestone, we created a backend endpoint to store user addresses in the 
 2. Repository is publicly accessible.
 3. This README summarizes the progress.
 4. This milestone enhances the user experience by providing a profile page to view and manage their information.
+
+### Milestone 23: Implementing Place Order Functionality
+# Overview:
+In this milestone, we will enhance the checkout flow by implementing a "Place Order" button inside the cart and creating a Select Address page where users can choose a delivery address. Additionally, we will design a Mongoose schema to store order details and create a backend endpoint to fetch user addresses.
+
+# Key Features:
+1. Place Order Button inside the cart page.
+2. Select Address Page to display and choose a delivery address.
+3. Mongoose Schema for storing order details.
+4. Backend API to fetch user addresses.
+
+
+
