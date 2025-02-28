@@ -492,7 +492,7 @@ In this milestone, we created a backend endpoint to store user addresses in the 
 
 ### Milestone 23: Implementing Place Order Functionality
 # Overview:
-In this milestone, we will enhance the checkout flow by implementing a "Place Order" button inside the cart and creating a Select Address page where users can choose a delivery address. Additionally, we will design a Mongoose schema to store order details and create a backend endpoint to fetch user addresses.
+In this milestone, we will enhance the checkout flow by implementing a **Place Order** button inside the cart and creating a Select Address page where users can choose a delivery address. Additionally, we will design a Mongoose schema to store order details and create a backend endpoint to fetch user addresses.
 
 # Key Features:
 1. Place Order Button inside the cart page.
@@ -500,5 +500,16 @@ In this milestone, we will enhance the checkout flow by implementing a "Place Or
 3. Mongoose Schema for storing order details.
 4. Backend API to fetch user addresses.
 
+### Milestone 24: Order Confirmation Page
 
+## Overview
+
+The **Order Confirmation Page** is a pivotal component in the e-commerce checkout process. It offers users a final opportunity to review their order details before finalization. This page encompasses the list of products selected for purchase, the chosen delivery address, and the total order value. A prominently displayed "Place Order" button enables users to confirm and complete their purchase.
+
+## Features
+
+1. **Product Summary**: Displays all products in the user's cart, including names, quantities, prices, and any applicable discounts.
+2. **Delivery Address**: Shows the user's selected shipping address, with an option to modify if necessary.
+3. **Order Total Calculation**: Provides a breakdown of costs, including subtotal, taxes, shipping fees, and the grand total.
+4. **Place Order Button**: Allows users to confirm and finalize their order, triggering the order processing workflow.
 
