@@ -513,3 +513,30 @@ The **Order Confirmation Page** is a pivotal component in the e-commerce checkou
 3. **Order Total Calculation**: Provides a breakdown of costs, including subtotal, taxes, shipping fees, and the grand total.
 4. **Place Order Button**: Allows users to confirm and finalize their order, triggering the order processing workflow.
 
+
+# Milestone 25 - Order Placement API 
+
+## Steps to Implement
+
+1. **Create an Endpoint:**
+   - Develop an endpoint that accepts product details, user information, and address details.
+
+2. **Retrieve User ID:**
+   - Extract the user's email from the request data.
+   - Use this email to fetch the corresponding _id from the MongoDB users collection.
+
+3. **Store Order Details:**
+   - For each product, create a unique order entry with the same address.
+   - Use the existing Order schema to store these details in the MongoDB orders collection.
+
+
+# Milestone 26 📝
+
+### Steps to Fetch User Orders
+1. Create an endpoint to receive the **user's email**.
+2. Retrieve the *user's _id* using the provided email.
+3. Fetch all orders linked to that **_id**.
+4. Respond with the user's order details.
+
+This endpoint will help you retrieve all orders for a specific user.
+
