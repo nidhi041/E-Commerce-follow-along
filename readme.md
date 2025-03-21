@@ -574,4 +574,44 @@ In this milestone, we enhanced the *My Orders* page by adding a *Cancel Order* b
 3. Created a backend endpoint to receive an order-id, find the order, update its status to *canceled*, and save the changes.  
 
 
+### Milestone 29 - PayPal Integration (Setup)
+
+**Overview:**
+In this milestone, we set up PayPal for online payments. 
+**Learning Goals:**
+1. Create a PayPal developer account and log in to the PayPal Developer Dashboard. Navigate to Sandbox Accounts, create an account if needed, and save the User ID. 
+2. Obtain and save your Client ID from the sandbox account. 
+3. Update the order confirmation page to include two payment options: Cash on Delivery (COD) and Online Payment (PayPal).
+4. Implement radio buttons to toggle between these options, ensuring the PayPal button appears when Online Payment is selected. 
+
+# Milestone 30 - PayPal Payment Integration
+
+This project implements an online payment gateway using the PayPal API in a React application.
+
+## Features
+- Integrated PayPal API for secure payments.
+- Used react-paypal-js for seamless UI integration.
+- Supports multiple payment methods like credit/debit cards.
+
+## Installation
+1. Clone the repository:
+    bash
+    git clone <repository-url>
+    
+2. Install dependencies:
+    bash
+    npm install
+    
+3. Add your PayPal client key in a .env file:
+    env
+    REACT_APP_PAYPAL_CLIENT_ID=your-client-id
+    
+4. Start the application:
+    bash
+    npm run dev
+    
+
+## Usage
+- Access the payment page and proceed with PayPal payment.
+
 
