@@ -614,4 +614,12 @@ This project implements an online payment gateway using the PayPal API in a Reac
 ## Usage
 - Access the payment page and proceed with PayPal payment.
 
+### Milestone 31: Global State with Redux
+Set up Redux to manage the user's email globally.
+
+## Key Tasks:
+1. Install react-redux.
+2. Create store.js and userActions.js.
+3. Configure userReducer to store email.
+4. Wrap App with Provider.
 
