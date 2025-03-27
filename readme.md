@@ -623,3 +623,8 @@ Set up Redux to manage the user's email globally.
 3. Configure userReducer to store email.
 4. Wrap App with Provider.
 
+### Milestone 32: Managing Global State in Login and Other Pages
+
+# Overview
+
+In this milestone, we will implement global state management for storing the email entered on the login page. The email will be stored using Redux and will be accessible across all pages using useSelector.

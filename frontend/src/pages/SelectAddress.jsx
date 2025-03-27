@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import NavBar from '../components/nav'; // Ensure the path is correct and component name matches
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { useSelector } from 'react-redux'; // Import useSelector from react-redux
 // Optionally, if you have a context or a way to get the authenticated user's email, import it
 // import { useAuth } from '../contexts/AuthContext';
 const SelectAddress = () => {
@@ -11,8 +12,11 @@ const SelectAddress = () => {
     const navigate = useNavigate();
     // Optionally, get the authenticated user's email from context or props
     // const { user } = useAuth();
-    const userEmail = 'nidhi20@gmail.com'; // Replace with dynamic email in production
+       // Retrieve email from Redux state
+       const userEmail = useSelector((state) => state.user.email);
     useEffect(() => {
+          // Only fetch addresses if email exists
+          if (!userEmail) return;
         const fetchAddresses = async () => {
             try {
                 const response = await axios.get('http://localhost:3000/api/v2/user/addresses', {
